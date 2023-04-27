@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--clr-pink: #e2c5c7;
+	--clr-orange: #fdaf30;
+	--clr-light: #f8efe5;
+	--clr-dark: #1b1b25;
+	--fontBodoni: "Bodoni Moda", serif;
+	--fontCaveat: "Caveat", cursive;
+}
+
+/*Color*/
+
+.colorBlack {
+	color: var(--clr-dark);
+}
+
+.colorPink {
+	color: var(--clr-pink);
+}
+
+.colorOrange {
+	color: var(--clr-orange);
+}
+
+.colorLight {
+	color: var(--clr-light);
+}
+
+/*Background Color*/
+
+.backgroundOrange {
+	background-color: var(--clr-orange);
+}
+
+.backgroundDark {
+	background-color: var(--clr-dark);
+}
+
+.backgroundPink {
+	background-color: var(--clr-pink);
+}
+
+/*Font*/
+
+.fontBodoni {
+	font-family: var(--fontBodoni);
+}
+
+.fontCaveat {
+	font-family: var(--fontCaveat);
+}
+
+/*Navigacija*/
+
+.navBackground {
+	background-color: rgba(253, 175, 48, 0.5);
+}
+
+.logo a {
+	color: #e2c5c7;
+}
+
+/*Header*/
+
+.nav,
+.circle {
+	list-style-type: none;
+}
+
+/* CASE STUDIES */
+
+@media only screen and (max-width: 640px) {
+	.mobGalerija {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.mobAbout {
+		justify-content: center;
+	}
+}
